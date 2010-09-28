@@ -3,6 +3,7 @@ class HomeController < ApplicationController
   end
 
   def cool
+    track! :cool_views
   end
 
   def about

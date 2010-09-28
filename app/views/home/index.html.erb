@@ -4,6 +4,6 @@
   <body>
     <%= link_to "View something cool", cool_path %>
     <%= link_to "About", about_path %>
-    <center><p style="font: serif; font-size: 128px;">Hi</p></center>
+    <center><p style="font: serif; font-size: 128px;"><%= ab_test(:welcome_message) %></p></center>
   </body>
 </html>
