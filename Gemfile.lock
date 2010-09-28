@@ -1,6 +1,16 @@
+GIT
+  remote: http://github.com/assaf/vanity.git
+  revision: 32a93c8abf981be7b9ced9c733e2830421d694c3
+  ref: 32a93c8abf981be7b9ced9c733e2830421d694c3
+  specs:
+    vanity (1.4.0)
+      redis (~> 2.0)
+      redis-namespace (~> 0.7)
+
 GEM
   remote: http://rubygems.org/
   specs:
+    SystemTimer (1.2)
     actionmailer (2.3.8)
       actionpack (= 2.3.8)
     actionpack (2.3.8)
@@ -29,10 +39,15 @@ GEM
       activesupport (= 2.3.8)
       rake (>= 0.8.3)
     rake (0.8.7)
+    redis (2.0.10)
+    redis-namespace (0.10.0)
+      redis (< 3.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  SystemTimer
   mongrel
   rails (~> 2.3.8)
+  vanity!
