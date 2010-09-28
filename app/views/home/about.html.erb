@@ -1,15 +1,17 @@
 <html>
   <body>
     <h1>Talk By</h1>
-    <p>
-      <%= link_to "Marcus Irven", "http://marcusirven.com" %> (<%= link_to "@mirven", "http://twitter.com/mirven" %>)
-    </p>
+    <ul>
+      <li><b>Marcus Irven</b> (<%= link_to "@mirven", "http://twitter.com/mirven" %>)</li>
+      <li><%= link_to "http://marcusirven.com/" %></li>
+      <li><%= mail_to "marcus@marcusirven.com" %></li>
+    </ul>
     <h1>Links</h1>
     <ul>
-      <li><%= link_to "Demo Source", "http://github.com/mirven/vanity-aor/" %></li>
-      <li><%= link_to "Demo", "http://vanity-aor.heroku.com" %></li>
-      <li><%= link_to "Vanity", "http://vanity.labnotes.org/" %></li>
-      <li><%= link_to "Vanity Google Group", "http://groups.google.com/group/vanity-talk" %></li>
+      <li>Demo Source: <%= link_to "http://github.com/mirven/vanity-aor/" %></li>
+      <li>Demo: <%= link_to "http://vanity-aor.heroku.com/" %></li>
+      <li>Vanity: <%= link_to "http://vanity.labnotes.org/" %></li>
+      <li>Vanity Google Group: <%= link_to "http://groups.google.com/group/vanity-talk" %></li>
     </ul>
 
   </body>
