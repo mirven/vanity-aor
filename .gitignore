@@ -5,3 +5,4 @@ config/database.yml
 db/*.sqlite3
 .bundle
 cheatsheet.rb
+fake-traffic.rb
